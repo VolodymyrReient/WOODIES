@@ -1,0 +1,65 @@
+nav {
+    position: relative;
+    z-index: 5;
+    width: 93%;
+    display: flex;
+    padding-top: 20px;
+    .logo {
+        width: 33.5%;
+        display: flex;
+        align-items: center;
+        img {
+            padding-right: 3.3%;
+        }
+        a {
+            font-family: Nunito;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            letter-spacing: 0.25em;
+            color: #3e3f43;
+        }
+    }
+    .menu {
+        display: flex;
+        width: 64%;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 22px;
+            color: rgba(34, 34, 34, 0.75);
+            &:hover {
+                color: #daa520;
+                font-weight: 800;
+            }
+        }
+        .btn {
+            width: 137px;
+            height: 40px;
+            background: #f9bdbd;
+            border: 1px solid #3e3f43;
+            border-radius: 8px;
+            font-family: "Nunito";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            color: #3e3f43;
+            outline: none;
+            cursor: pointer;
+        }
+    }
+    .menu-background {
+        position: absolute;
+        z-index: -999;
+        top: 0;
+        right: 0;
+        width: 370px;
+        height: 800px;
+        background: #f9bdbd;
+        border-bottom-left-radius: 92px;
+    }
+}

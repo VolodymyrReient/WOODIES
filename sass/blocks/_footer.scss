@@ -1,0 +1,121 @@
+.footer {
+    margin-top: 120px;
+    position: relative;
+    .wrapper {
+        background: #f2f2f2;
+        position: relative;
+        z-index: 5;
+    }
+    .img {
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+    &__subscribe {
+        position: relative;
+        z-index: 5;
+        padding: 53px 0 86px 0;
+        width: 83.5%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        &-text {
+            b {
+                font-size: 18px;
+            }
+            width: 493px;
+            font-family: "Nunito";
+            font-size: 16px;
+            color: #000000;
+        }
+        .form {
+            display: flex;
+            align-items: center;
+            position: relative;
+            height: 40px;
+            .email {
+                width: 355px;
+
+                height: 100%;
+                background: #ffffff;
+                border: 1px solid #daa520;
+                border-radius: 4px;
+                &::placeholder {
+                    padding-left: 16px;
+                }
+            }
+            .submit {
+                cursor: pointer;
+                position: absolute;
+                width: 120px;
+                height: 42px;
+                border-radius: 4px;
+                background: $main-color;
+                outline: none;
+                border: none;
+                left: 336px;
+                font-family: "Nunito";
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #ffffff;
+            }
+        }
+    }
+    &__info {
+        position: relative;
+        z-index: 5;
+        width: 62%;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #c4c4c4;
+        padding-top: 24px;
+        margin-left: 108px;
+
+        &-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 138px;
+            .title {
+                font-family: "Nunito";
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 25px;
+                color: #333333;
+                padding-top: 8px;
+            }
+            .logo {
+                display: flex;
+                align-items: center;
+                a {
+                    font-family: "Nunito";
+                    font-weight: bold;
+                    font-size: 24px;
+                    letter-spacing: 0.25em;
+                    color: #3e3f43;
+                }
+                img {
+                    margin-right: 8px;
+                }
+            }
+            a {
+                font-family: "Nunito";
+                font-weight: normal;
+                font-size: 14px;
+                color: #8d8d8d;
+            }
+        }
+    }
+    .copyright {
+        margin: 0 auto;
+        padding-top: 45px;
+        padding-bottom: 10px;
+        text-align: center;
+        font-family: "Nunito";
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #8d8d8d;
+    }
+}

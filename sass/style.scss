@@ -1,0 +1,90 @@
+@import "base/variables";
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Light.eot");
+    src: local("Gilroy Light"), local("Gilroy-Light"),
+        url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gilroy-Light.woff") format("woff"),
+        url("../fonts/Gilroy-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Bold.eot");
+    src: local("Gilroy Bold"), local("Gilroy-Bold"),
+        url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/Gilroy-Bold.woff") format("woff"),
+        url("../fonts/Gilroy-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+input {
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 1152px;
+}
+
+.line {
+    height: 1px;
+    background: #000;
+    &-wd-65 {
+        width: 65px;
+    }
+    &-wd-202 {
+        width: 202px;
+    }
+    &-wd-240 {
+        width: 240px;
+    }
+    &-wd-316 {
+        width: 316px;
+    }
+}
+
+.h4 {
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: rgba(34, 34, 34, 0.1);
+}
+.pink {
+    background: #f9bdbd;
+}
+.grainfield {
+    background: #f7dea6;
+}
+.blue {
+    background: #a8dcec;
+}
+@import "./blocks/nav";
+@import "./blocks/promo";
+@import "./blocks/about";
+@import "./blocks/custom";
+@import "./blocks/categories";
+@import "./blocks/testimony";
+@import "./blocks/footer";
