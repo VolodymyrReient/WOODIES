@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
     <title>Woodies</title>
 </head>
-<body class="wrapper">
+<body class="wrapper">   
     <header>
         <nav class="wrapper">
             <div class="logo"><img src="img/logo.svg" alt="logo"><a href="#">WOODIES</a></div>
@@ -25,6 +25,26 @@
         </nav>
     </header>
     <section class="promo">
+        <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+        <aside id="aside" class="aside">
+            <nav class="wrapper">
+                <div class="logo">
+                  <img src="img/logo.svg" alt="logo">
+                    <a href="#">WOODIES</a></div>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Testimony</a></li>
+                    <li><button class="btn">SIGN UP</button></li>
+                </ul>
+            </nav>
+    </aside>
         <div class="promo__wrapper">
         <div class="promo__descr">
             <h1 class="promo__descr-title">Are you looking for <b>woodden furniture</b> for your place?</h1>
@@ -80,12 +100,15 @@
         </div>
         </div>
     </section>
+
     <section class="custom">
         <div class="wrapper">
             <div class="custom__title">
                 <div class="custom__title-logo">
+                    <div class="logo-wrapper">
                     <img src="img/about-logo.svg" alt="logo">
                     <h3>How to custom</h3>
+                    </div>
                     <div class="line line-wd-65"></div>
                     <h4 class="h4">HOW IT WORKS</h4>
                 </div>
@@ -111,12 +134,15 @@
             <button class="custom__btn">Get Personalized Now</button>
         </div>
     </section>
+
     <section class="categories">
         <div class="wrapper">
             <div class="categories__title">
                 <div class="categories__title-logo">
-                    <img src="img/about-logo.svg" alt="logo">
-                    <h3>What we have</h3>
+                    <div class="logo-wrapper">
+                        <img src="img/about-logo.svg" alt="logo">
+                        <h3>What we have</h3>
+                    </div>
                     <div class="line line-wd-202"></div>
                     <h4 class="h4">CATEGORIES</h4>
                 </div>
@@ -150,12 +176,15 @@
             </div>
         </div>
     </section>
+
     <section class="testimony">
         <div class="wrapper">
             <div class="categories__title">
                 <div class="categories__title-logo">
+                    <div class="logo-wrapper">
                     <img src="img/about-logo.svg" alt="logo">
                     <h3>What they say</h3>
+                </div>
                     <div class="line line-wd-240"></div>
                     <h4 class="h4">TESTIMONY</h4>
                 </div>
@@ -209,6 +238,7 @@
             </div>
         </div>
     </section>
+
     <footer class="footer">
     <div class="wrapper">
         <div class="img"><img src="./img/bg-footer.png" alt="workplace"></div>
@@ -223,7 +253,7 @@
             </form>
         </div>
         <div class="footer__info">
-            <div class="footer__info-card main">
+            <div class="footer__info-card">
                 <div class="logo">
                     <img src="./img/logo.svg" alt="logo">
                     <a href="#">WOODIES</a>
@@ -268,5 +298,6 @@
         <div class="copyright">© 2020 WOODIES</div>
     </div>
     </footer>
+<script src="./script.js"></script>
 </body>
 </html>

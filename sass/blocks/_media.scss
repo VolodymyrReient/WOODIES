@@ -1,0 +1,442 @@
+@media (max-width: 1200px) {
+    .wrapper {
+        max-width: 960px;
+    }
+    .promo {
+        &__img {
+            &-flower {
+                display: none;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+    nav {
+        .menu-background {
+            height: 640px;
+        }
+    }
+    .about {
+        &__flower {
+            display: none;
+        }
+        &__descr {
+            margin-top: 20px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        &__content {
+            margin-top: 30px;
+            width: 100%;
+            flex-direction: column;
+            &-descr {
+                margin-top: 10px;
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        &__text {
+            width: 100%;
+            flex-direction: column-reverse;
+            &-desrc {
+                h4,
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .h4 {
+        font-size: 50px;
+        line-height: inherit;
+    }
+    .custom {
+        margin-top: 50px;
+    }
+    .categories {
+        margin-top: 50px;
+        &__title {
+            &-logo {
+                h3 {
+                    font-size: 31px;
+                }
+            }
+        }
+        &__items {
+            margin-top: 20px;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(400px, 1fr));
+            &-card {
+                margin: 0 auto;
+            }
+        }
+    }
+    .testimony {
+        margin-top: 50px;
+        &__content {
+            margin-top: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .pointers {
+            margin: 23px auto 0 auto;
+        }
+    }
+    .footer {
+        margin-top: 50px;
+        .form {
+            .submit {
+                left: 299px;
+                bottom: -1px;
+            }
+        }
+        .img {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .wrapper {
+        max-width: 720px;
+    }
+    nav {
+        .logo {
+            max-width: 25%;
+            a {
+                font-size: 20px;
+            }
+        }
+        .menu {
+            width: 75%;
+            .btn {
+                width: 115px;
+                height: 35px;
+            }
+        }
+        .menu-background {
+            height: 600px;
+        }
+    }
+    .promo {
+        width: 100%;
+        &__descr {
+            &-title {
+                width: 395px;
+                font-size: 23px;
+            }
+            &-subtitle {
+                width: 100%;
+                margin-top: 20px;
+                font-size: 41px;
+            }
+            &-btn {
+                margin-top: 10px;
+            }
+        }
+    }
+    .custom {
+        &__title {
+            &-logo {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                h3 {
+                    padding: 0;
+                }
+                .h4 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .categories {
+        &__title {
+            &-logo {
+                flex-direction: column;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 100%;
+            margin: 0 auto;
+            justify-content: space-around;
+            &-card {
+                a {
+                    color: #000;
+                }
+            }
+        }
+        &__subscribe {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-text {
+                text-align: center;
+                margin-bottom: 5px;
+            }
+        }
+        .form {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        max-width: 540px;
+        z-index: 3;
+    }
+    header {
+        nav {
+            display: none;
+        }
+    }
+    .burger {
+        display: flex;
+    }
+    .promo {
+        &__wrapper {
+            width: 100%;
+        }
+        .aside {
+            background: #f9bdbd;
+            nav {
+                padding-top: 10px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    a {
+                        letter-spacing: normal;
+                        font-size: 15px;
+                    }
+                    img {
+                        width: 20px;
+                        padding: 0;
+                    }
+                }
+            }
+            .menu {
+                width: 50%;
+                flex-direction: column;
+                align-items: center;
+            }
+            .btn {
+                margin-bottom: 10px;
+            }
+        }
+        &__descr {
+            margin-top: 80px;
+            &-title {
+                width: 300px;
+                text-align: center;
+            }
+            &-subtitle {
+                text-align: center;
+                margin-top: 10px;
+            }
+            &-btn {
+                display: block;
+                margin: 10px auto 0 auto;
+            }
+        }
+        &__img {
+            margin-top: 90px;
+        }
+    }
+    .about {
+        margin-top: 50px;
+        &__descr {
+            flex-direction: column;
+        }
+        &__content {
+            margin-top: 30px;
+            width: 100%;
+            flex-direction: column;
+            &-descr {
+                margin-top: 10px;
+                p {
+                    text-align: center;
+                }
+            }
+        }
+        &__text {
+            flex-direction: column-reverse;
+            &-desrc {
+                h4 {
+                    width: 535px;
+                    text-align: center;
+                }
+                p {
+                    width: 535px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .custom {
+        &__items {
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__btn {
+            margin-top: 26px;
+        }
+    }
+    .footer {
+        width: 100%;
+        &__subscribe {
+            padding-bottom: 40px;
+            width: 100%;
+            &-text {
+                width: 315px;
+            }
+        }
+
+        &__info {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            row-gap: 10px;
+            &-card {
+                margin: 0 auto;
+                a {
+                    text-align: center;
+                }
+            }
+        }
+        .img {
+            bottom: 0;
+        }
+        .copyright {
+            color: #000;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .promo {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__descr {
+            margin-top: 40px;
+            &-title {
+                margin: 0 auto;
+            }
+        }
+    }
+    .about {
+        margin-top: 50px;
+        &__descr {
+            flex-direction: column;
+            align-items: center;
+            &-subtitle {
+                width: 315px;
+                font-size: 57px;
+            }
+        }
+        &__content {
+            margin-top: 30px;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+            &-img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img {
+                    width: 100%;
+                    margin: 0;
+                }
+            }
+            &-descr {
+                width: 100%;
+                display: block;
+                margin: auto;
+                h4 {
+                    display: block;
+                    margin: 10px auto 0 auto;
+                    width: 315px;
+                    text-align: center;
+                    font-size: 25px;
+                }
+                p {
+                    width: 315px;
+                    display: block;
+                    margin: 0 auto;
+                    font-size: 21px;
+                }
+            }
+        }
+        &__text {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            &-desrc {
+                display: block;
+                margin: 0 auto;
+                p {
+                    display: block;
+                    margin: 0 auto;
+                    width: 315px;
+                    text-align: center;
+                }
+                h4 {
+                    display: block;
+                    margin: 0 auto;
+                    width: 99%;
+                    text-align: center;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .testimony {
+        &__content {
+            &-slider {
+                &_descr {
+                    width: 310px;
+                    padding: 0;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .text {
+                    width: 310px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .footer {
+        &__subscribe {
+            padding-bottom: 50px;
+        }
+        .form {
+            padding: 0;
+            .email {
+                width: 315px;
+            }
+            .submit {
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -46px;
+            }
+        }
+    }
+}

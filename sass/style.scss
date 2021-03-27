@@ -81,6 +81,31 @@ input {
 .blue {
     background: #a8dcec;
 }
+.aside {
+    display: none;
+}
+.flex {
+    display: flex;
+}
+.burger {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 5px;
+    left: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 18px;
+    span {
+        background: #000;
+        width: 20px;
+        height: 2px;
+    }
+}
+.left {
+    transition: all 200ms;
+    left: 5px;
+}
 @import "./blocks/nav";
 @import "./blocks/promo";
 @import "./blocks/about";
@@ -88,3 +113,4 @@ input {
 @import "./blocks/categories";
 @import "./blocks/testimony";
 @import "./blocks/footer";
+@import "./blocks/media";
